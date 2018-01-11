@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <style>
@@ -17,14 +16,22 @@
     </style>
 
     <title>Flappy Bird</title>
-    <div id="gameDiv"> </div>
 
-    <script src="asset/js/phaser.min.js"></script>
-    <script src="asset/js/main.js?{{ rid }}"></script>
+
+    <script src="asset/js/phaser.2.9.4.js"></script>
+    <!--<script src="asset/js/phaser_book.min.js"></script>-->
+
+    <script src="asset/js/boot.js?{{ rid }}"></script>
+    <script src="asset/js/load.js?{{ rid }}"></script>
+    <script src="asset/js/menu.js?{{ rid }}"></script>
+    <script src="asset/js/play.js?{{ rid }}"></script>
+    <script src="asset/js/game.js?{{ rid }}"></script>
+
+
     <!--<script src="asset/js/main_easy.js?{{ rid }}"></script>-->
     <!--<script src="asset/js/kidify.js?{{ rid }}"></script>-->
 </head>
 <body>
-
+    <div id="gameDiv"> </div>
 </body>
 </html>
