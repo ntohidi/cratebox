@@ -18,6 +18,7 @@ var loadState = {
 
         // Load all our assets
 //        game.load.image('player', '/asset/images/player.png');
+
         // ******  for animation, add spritesheet
         /*
         game.load.spritesheet ; needs to know the width and height of each frame
